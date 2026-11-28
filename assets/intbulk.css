@@ -1,0 +1,26 @@
+/* debit-note: interest on late payment from a ledger or outstanding list (byof3-interest, 28 Nov 2026) */
+.intbulk{margin:28px auto}
+.intbulk>h2{margin:0 0 4px}
+.oi-card{margin:14px 0}
+.oi-card h3{margin-top:0}
+.oi-row{display:flex;flex-wrap:wrap;gap:8px 12px;align-items:center;margin:8px 0}
+.oi-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(210px,1fr));gap:10px 14px;margin:10px 0}
+.oi-grid label,.oi-tpl{display:flex;flex-direction:column;gap:4px;font-size:.9rem;min-width:0}
+.oi-grid input,.oi-grid select,.oi-tpl textarea{width:100%;box-sizing:border-box;min-height:40px}
+.oi-grid .oi-chk,.oi-rad{flex-direction:row;align-items:center;gap:8px;min-height:40px;display:inline-flex}
+.oi-tpl textarea{font-family:var(--mono);font-size:.9rem;line-height:1.45;min-height:170px}
+.oi-drop{display:flex;flex-direction:column;gap:6px;align-items:center;justify-content:center;text-align:center;padding:22px 14px;border:2px dashed var(--line);border-radius:var(--r,12px);background:var(--surface2);cursor:pointer}
+.oi-drop.on{border-color:var(--accent,#0E746A);background:color-mix(in srgb,var(--accent,#0E746A) 8%,var(--surface2))}
+.oi-drop span{font-size:.88rem;max-width:62ch}
+.oi-pick{color:var(--accent,#0E746A);text-decoration:underline;cursor:pointer}
+.oi-total{font-size:1.1rem}
+.oi-tbl{width:100%}
+.oi-tbl td.n,.oi-tbl th.n{text-align:right;white-space:nowrap}
+.oi-acts{display:flex;flex-wrap:wrap;gap:6px}
+.oi-open>td{background:var(--surface2)}
+.oi-sub{font-size:.88rem}
+.oi-msg{white-space:pre-wrap;overflow-wrap:anywhere;background:var(--surface);border-radius:10px;padding:10px 12px;margin:6px 0;font-family:inherit}
+.oi-skip ul{max-height:260px;overflow:auto;margin:6px 0;padding-left:20px;font-size:.9rem}
+.oi-cols{border-top:1px solid var(--line);margin-top:12px;padding-top:10px}
+.oi-skip summary,.oi-set summary{cursor:pointer;min-height:36px}
+@media (max-width:620px){.oi-tbl thead{display:none}.oi-tbl tr{display:block;border-bottom:1px solid var(--line);padding:6px 0}.oi-tbl td{display:block;border:0;padding:2px 0}.oi-tbl td.n{text-align:left}.oi-acts{padding-top:6px}.oi-tbl td[data-l]::before{content:attr(data-l) ": ";font-weight:600;opacity:.8}.oi-sub tr{padding:6px 0}}
